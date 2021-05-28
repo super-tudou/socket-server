@@ -1,0 +1,30 @@
+{
+  "require": {
+    "nmred/kafka-php": "v0.2.0.8",
+    "monolog/monolog": "2.0.*",
+    "maxime-pasquier/monolog-stdout-handler": "^2.0",
+    "ext-pcntl": "*",
+    "ext-sockets": "*",
+    "ext-redis": "*",
+    "ext-posix": "*",
+    "hassankhan/config": "^2.2",
+    "mustangostang/spyc": "^0.6.3",
+    "symfony/yaml": "^5.2",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "service\\": "service",
+      "config\\": "config",
+      "common\\": "common",
+      "event\\": "event",
+      "protocol\\": "protocol",
+      "controller\\": "controller",
+      "server\\": "server",
+      "component\\": "component"
+    }
+  }
+}
